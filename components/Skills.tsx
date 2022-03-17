@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import Link from "next/link";
 import { AiFillHtml5 } from "react-icons/ai";
 import { DiCss3 } from "react-icons/di";
 import {
@@ -19,7 +20,9 @@ const Skills = () => {
     <>
       <div className="flex justify-center items-center text-2xl  text-white cursor-pointer">
         <span className="p-2 bg-black rounded">
-          <a href="/projects/Projects">Click to view Projects</a>
+          <Link href='href="/projects/Projects'>
+            <a>Click to view Projects</a>
+          </Link>
         </span>
       </div>
       <div className="block sm:flex sm:flex-wrap p-3 m-3 gap-3 justify-around">
