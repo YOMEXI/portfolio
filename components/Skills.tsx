@@ -20,7 +20,7 @@ const Skills = () => {
     <>
       <div className="flex justify-center items-center text-2xl  text-white cursor-pointer">
         <span className="p-2 bg-black rounded">
-          <Link href='href="/projects/Projects'>
+          <Link href="/projects/Projects">
             <a>Click to view Projects</a>
           </Link>
         </span>
