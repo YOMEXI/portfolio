@@ -8,6 +8,7 @@ import {
   SiJavascript,
   SiJest,
   SiMongodb,
+  SiNestjs,
   SiNodedotjs,
   SiPostgresql,
   SiReact,
@@ -52,14 +53,14 @@ const Skills = () => {
                     <SiJavascript />
                   </p>
                 </div>
+              </div>
+              <div>
                 <div className="font-medium flex justify-between items-center  md:w-64 mb-3">
                   <span className="sm:text-xl text-sm"> TypeScript</span>{" "}
                   <p className="text-2xl sm:text-4xl justify-end text-blue-900 p-2 bg-white frontend_img_circle">
                     <SiTypescript />
                   </p>
                 </div>
-              </div>
-              <div>
                 <div className="font-medium flex justify-between items-center  md:w-64 mb-3">
                   <span className="sm:text-xl text-sm"> Reactjs</span>{" "}
                   <p className="text-2xl sm:text-4xl justify-end text-blue-900 p-2 bg-white frontend_img_circle">
@@ -70,12 +71,6 @@ const Skills = () => {
                   <span className="sm:text-xl text-sm"> Redux</span>{" "}
                   <p className="text-2xl sm:text-4xl justify-end text-blue-900 p-2 bg-white frontend_img_circle">
                     <SiRedux />
-                  </p>
-                </div>
-                <div className="font-medium flex justify-between items-center  md:w-64 mb-3">
-                  <span className="sm:text-xl text-sm"> Github</span>{" "}
-                  <p className="text-2xl sm:text-4xl justify-end text-black p-2 bg-white frontend_img_circle">
-                    <SiGithub />
                   </p>
                 </div>
               </div>
@@ -103,20 +98,13 @@ const Skills = () => {
                   </p>
                 </div>
                 <div className="font-medium flex justify-between items-center  md:w-64 mb-3">
-                  <span className="sm:text-xl text-sm"> Jest</span>{" "}
-                  <p className="text-2xl sm:text-4xl justify-end text-red-500 p-2 bg-white frontend_img_circle">
-                    <SiJest />
-                  </p>
-                </div>
-                <div className="font-medium flex justify-between items-center  md:w-64 mb-3">
-                  <span className="sm:text-xl text-sm"> TypeScript</span>{" "}
-                  <p className="text-2xl sm:text-4xl justify-end text-blue-900 p-2 bg-white frontend_img_circle">
-                    <SiTypescript />
+                  <span className="sm:text-xl text-sm"> Nestjs</span>{" "}
+                  <p className="text-2xl sm:text-4xl justify-end text-black p-2 bg-white frontend_img_circle">
+                    <SiNestjs />
                   </p>
                 </div>
               </div>
               <div>
-                {" "}
                 <div className="font-medium flex justify-between items-center  md:w-64 mb-3">
                   <span className="sm:text-xl text-sm"> Postgresql</span>{" "}
                   <p className="text-2xl sm:text-4xl justify-end text-blue-900 p-2 bg-white frontend_img_circle">
@@ -130,9 +118,9 @@ const Skills = () => {
                   </p>
                 </div>
                 <div className="font-medium flex justify-between items-center  md:w-64 mb-3">
-                  <span className="sm:text-xl text-sm"> Github</span>{" "}
-                  <p className="text-2xl sm:text-4xl justify-end text-black p-2 bg-white frontend_img_circle">
-                    <SiGithub />
+                  <span className="sm:text-xl text-sm"> Jest</span>{" "}
+                  <p className="text-2xl sm:text-4xl justify-end text-red-500 p-2 bg-white frontend_img_circle">
+                    <SiJest />
                   </p>
                 </div>
               </div>
