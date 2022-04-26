@@ -1,7 +1,6 @@
 import { motion } from "framer-motion";
 import { SiGithub } from "react-icons/si";
 import Skills from "./Skills";
-import Projects from "./Skills";
 
 const Section = () => {
   const variants = {
@@ -22,29 +21,6 @@ const Section = () => {
                 </a>
               </p>
             </h1>
-
-            <motion.div
-              animate={{ x: 40 }}
-              transition={{ ease: "easeOut", duration: 0.9 }}
-              initial="hidden"
-            >
-              <p className="font-medium md:text-2xl lg:text-4xl mt-3 p-2">
-                A fullstack Software developer.
-              </p>
-              <p className="font-medium md:text-xl lg:text-2xl mt-2 p-1">
-                Email: abayomexy@gmail.com
-              </p>
-            </motion.div>
-          </div>
-          <div className="flex-auto p-4  flex justify-center items-center ">
-            <motion.div animate={{ y: [0, 100, 0] }}>
-              <img
-                src="/img/alias.png"
-                alt=""
-                // className="w-52 md:w-64 lg:w-96 rounded-full h-52 md:h-64 lg:h-96  "
-                className="profile-image"
-              />
-            </motion.div>
           </div>
         </div>
       </div>
