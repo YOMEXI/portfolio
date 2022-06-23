@@ -66,7 +66,7 @@ const Projects = () => {
           <span className="font-medium">Redux</span> ,
           <span className="font-medium">Nodejs</span> ,
           <span className="font-medium">Nestjs</span> ,
-          <span className="font-medium">Postgresql</span>
+          <span className="font-medium">Postgresql</span>,
         </p>
         <a
           href="https://findeed-client.herokuapp.com
