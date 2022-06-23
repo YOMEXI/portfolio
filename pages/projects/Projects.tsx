@@ -62,7 +62,7 @@ const Projects = () => {
         </h3>
         <p className="text-sm sm:text-lg my-1 text-center">
           An mini Indeed application built using <br />
-          <span className="font-medium ">reactjs</span>,{" "}
+          <span className="font-medium ">reactjs</span>,
           <span className="font-medium">Redux</span> ,
           <span className="font-medium">Nodejs</span> ,
           <span className="font-medium">Nestjs</span> ,
